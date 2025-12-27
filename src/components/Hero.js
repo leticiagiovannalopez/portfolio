@@ -72,12 +72,10 @@ const Hero = () => {
           <div className="hero-image">
             <div className="image-placeholder">
               <div className="purple-glow"></div>
-              {/* Foto será adicionada aqui */}
-              <div className="placeholder-text">LGL</div>
+              <img src={process.env.PUBLIC_URL + "/images/leticia.png"} alt="Letícia Lopez" />
             </div>
           </div>
         </div>
-
         <div className="scroll-indicator">
           <div className="mouse">
             <div className="wheel"></div>
