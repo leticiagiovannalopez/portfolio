@@ -1,0 +1,54 @@
+.footer {
+  padding: 2rem 0;
+  background: rgba(0, 0, 0, 0.3);
+  border-top: 1px solid rgba(139, 92, 246, 0.2);
+}
+
+.footer-content {
+  text-align: center;
+}
+
+.footer-text {
+  color: var(--text-secondary);
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.heart-icon {
+  color: var(--purple-primary);
+  animation: heartbeat 1.5s ease-in-out infinite;
+}
+
+@keyframes heartbeat {
+  0%, 100% {
+    transform: scale(1);
+  }
+  10%, 30% {
+    transform: scale(1.1);
+  }
+  20%, 40% {
+    transform: scale(0.95);
+  }
+  50% {
+    transform: scale(1);
+  }
+}
+
+.footer-year {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+@media (max-width: 480px) {
+  .footer-text {
+    font-size: 0.9rem;
+  }
+
+  .footer-year {
+    font-size: 0.8rem;
+  }
+}
