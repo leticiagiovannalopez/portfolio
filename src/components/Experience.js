@@ -92,7 +92,7 @@ const Experience = () => {
             <div className="certifications glass-card">
               <h4>Aprendizado Contínuo</h4>
               <p>
-                Cursando cursos gratuitos da <strong>Fundação Bradesco</strong> focados em 
+                Cursando cursos da <strong>Fundação Bradesco</strong> focados em 
                 Python, análise de dados e tecnologias para o setor bancário, fortalecendo 
                 minhas habilidades técnicas para aplicações no mercado financeiro.
               </p>
