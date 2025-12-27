@@ -1,5 +1,4 @@
-import React from 'react';
-import { FaBook, FaBrain, FaRocket, FaLanguage, FaLightbulb, FaFire } from 'react-icons/fa';
+import { FaRocket, FaLanguage } from 'react-icons/fa';
 import './About.css';
 
 const About = () => {
@@ -8,11 +7,6 @@ const About = () => {
       icon: <FaLanguage />,
       title: 'Autodidata',
       description: 'Aprendi inglês sozinha através de imersão total, consumindo conteúdo e praticando diariamente. Hoje aplico essa mesma metodologia para aprender novas tecnologias.'
-    },
-    {
-      icon: <FaLightbulb />,
-      title: 'Curiosidade Técnica',
-      description: 'Gosto de entender o "porquê" por trás do código, não apenas fazer funcionar. Minha curiosidade me leva a buscar soluções melhores e aprender ferramentas novas.'
     },
     {
       icon: <FaRocket />,
