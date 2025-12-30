@@ -8,11 +8,6 @@ const Hero = () => {
       <div className="container">
         <div className="hero-content fade-in-up">
           <div className="hero-text">
-            <div className="greeting">
-              <span className="wave">👋</span>
-              <span>Olá, é bom ter você por aqui</span>
-            </div>
-            
             <h1>
               <span className="intro-text">Eu sou</span>
               <span className="gradient-text">Letícia Lopez</span>

@@ -1,11 +1,11 @@
 import React from 'react';
-import { 
-  SiPhp, 
-  SiLaravel, 
-  SiNodedotjs, 
-  SiPython, 
+import {
+  SiPhp,
+  SiLaravel,
+  SiNodedotjs,
+  SiPython,
   SiFastapi,
-  SiMongodb, 
+  SiMongodb,
   SiPostgresql,
   SiVuedotjs,
   SiVuetify,
@@ -15,9 +15,10 @@ import {
   SiDocker,
   SiGit,
   SiGithub,
-  SiJupyter
+  SiJupyter,
+  SiPandas
 } from 'react-icons/si';
-import { FaBrain } from 'react-icons/fa';
+import { FaBrain, FaPlus } from 'react-icons/fa';
 import './Skills.css';
 
 const Skills = () => {
@@ -86,8 +87,8 @@ const Skills = () => {
               <h3>{category.title}</h3>
               <div className="skills-grid">
                 {category.skills.map((skill, skillIndex) => (
-                  <div 
-                    key={skillIndex} 
+                  <div
+                    key={skillIndex}
                     className="skill-item"
                     style={{ '--skill-color': skill.color }}
                   >
