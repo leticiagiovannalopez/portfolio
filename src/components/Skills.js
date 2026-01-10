@@ -56,7 +56,8 @@ const Skills = () => {
         { name: 'Pandas', icon: '🐼', color: '#150458' },
         { name: 'Jupyter Notebooks', icon: <SiJupyter />, color: '#F37626' },
         { name: 'Random Forest', icon: <FaBrain />, color: '#8B5CF6' },
-        { name: 'Análise de Dados', icon: <FaBrain />, color: '#3776AB' }
+        { name: 'Análise de Dados', icon: <FaBrain />, color: '#3776AB' },
+        { name: 'IA Generativa', icon: '🤖', color: '#FF6B6B' }
       ]
     },
     {
