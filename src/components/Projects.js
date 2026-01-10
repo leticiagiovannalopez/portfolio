@@ -18,8 +18,8 @@ const Projects = () => {
     {
       title: 'Creators Connect',
       description: 'Plataforma marketplace que conecta influenciadores e empresas, facilitando parcerias comerciais e gestão de campanhas. Sistema completo com painéis administrativos e dashboards analíticos.',
-      tags: ['Python', 'FastAPI', 'PostgreSQL', 'Vue.js'],
-      icons: [<SiPython />, <SiFastapi />, <SiPostgresql />, <SiVuedotjs />],
+      tags: ['Python', 'FastAPI', 'PostgreSQL'],
+      icons: [<SiPython />, <SiFastapi />, <SiPostgresql />],
       github: 'https://github.com/leticiagiovannalopez/CreatorsConnect',
       status: 'Em andamento',
       featured: true
