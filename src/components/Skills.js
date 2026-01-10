@@ -18,7 +18,7 @@ import {
   SiJupyter,
   SiPandas
 } from 'react-icons/si';
-import { FaBrain, FaPlus } from 'react-icons/fa';
+import { FaBrain, FaPlus, FaRobot, FaWandMagicSparkles } from 'react-icons/fa6';
 import './Skills.css';
 
 const Skills = () => {
@@ -53,11 +53,11 @@ const Skills = () => {
       title: 'Machine Learning & Data',
       skills: [
         { name: 'Python', icon: <SiPython />, color: '#3776AB' },
-        { name: 'Pandas', icon: '🐼', color: '#150458' },
+        { name: 'Pandas', icon: <SiPandas />, color: '#150458' },
         { name: 'Jupyter Notebooks', icon: <SiJupyter />, color: '#F37626' },
         { name: 'Random Forest', icon: <FaBrain />, color: '#8B5CF6' },
         { name: 'Análise de Dados', icon: <FaBrain />, color: '#3776AB' },
-        { name: 'IA Generativa', icon: '🤖', color: '#FF6B6B' }
+        { name: 'IA Generativa', icon: <FaWandMagicSparkles />, color: '#FF6B6B' }
       ]
     },
     {

@@ -2,15 +2,16 @@ import React from 'react';
 import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 import { SiPython, SiFastapi, SiPostgresql, SiPhp, SiLaravel, SiVuedotjs, SiHtml5, SiCss3, SiJavascript } from 'react-icons/si';
 import { FaBrain } from 'react-icons/fa';
+import { FaWandMagicSparkles } from 'react-icons/fa6';
 import './Projects.css';
 
 const Projects = () => {
   const projects = [
     {
       title: 'Monitoramento de Risco Operacional',
-      description: 'Sistema de machine learning para monitoramento e previsão de riscos operacionais em instituições financeiras, utilizando Random Forest para análise preditiva e classificação de incidentes.',
-      tags: ['Python', 'FastAPI', 'Random Forest', 'PostgreSQL', 'Machine Learning'],
-      icons: [<SiPython />, <SiFastapi />, <FaBrain />, <SiPostgresql />],
+      description: 'Sistema de machine learning para monitoramento e previsão de riscos operacionais em instituições financeiras, utilizando Random Forest para análise preditiva e classificação de incidentes. Inclui chatbot com IA generativa para consultas inteligentes.',
+      tags: ['Python', 'FastAPI', 'Random Forest', 'IA Generativa', 'PostgreSQL'],
+      icons: [<SiPython />, <SiFastapi />, <FaBrain />, <FaWandMagicSparkles />, <SiPostgresql />],
       github: 'https://github.com/leticiagiovannalopez/monitoramento-risco-operacional',
       featured: true
     },
