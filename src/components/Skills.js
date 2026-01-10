@@ -53,7 +53,7 @@ const Skills = () => {
       title: 'Machine Learning & Data',
       skills: [
         { name: 'Python', icon: <SiPython />, color: '#3776AB' },
-        { name: 'Pandas', icon: <SiPandas />, color: '#150458' },
+        { name: 'Pandas', icon: '🐼', color: '#150458' },
         { name: 'Jupyter Notebooks', icon: <SiJupyter />, color: '#F37626' },
         { name: 'Random Forest', icon: <FaBrain />, color: '#8B5CF6' },
         { name: 'Análise de Dados', icon: <FaBrain />, color: '#3776AB' },
