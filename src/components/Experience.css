@@ -3,10 +3,21 @@
 }
 
 .experience-content {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
+  display: flex;
   gap: 2rem;
-  align-items: start;
+  align-items: stretch;
+}
+
+.experience-section {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+}
+
+.education-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
 }
 
 .section-title {
@@ -20,7 +31,8 @@
 }
 
 .experience-card {
-  margin-bottom: 2rem;
+  margin-bottom: 0;
+  height: 100%;
 }
 
 .experience-header {
@@ -168,6 +180,8 @@
 
 .certifications {
   background: rgba(139, 92, 246, 0.08);
+  flex: 1;
+  min-height: 0;
 }
 
 .certifications h4 {
@@ -201,7 +215,7 @@
 
 @media (max-width: 968px) {
   .experience-content {
-    grid-template-columns: 1fr;
+    flex-direction: column;
   }
 
   .experience-header {
