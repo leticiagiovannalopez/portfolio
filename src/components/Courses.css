@@ -19,7 +19,6 @@
   padding-left: 25px;
 }
 
-/* Linha vertical em cada coluna */
 .timeline-column::before {
   content: '';
   position: absolute;

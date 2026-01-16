@@ -10,7 +10,7 @@ const ChatBubble = () => {
   };
 
   const handleWhatsAppClick = () => {
-    const phoneNumber = '5511948052799'; // Formato internacional sem espaços
+    const phoneNumber = '5511948052799';
     const message = encodeURIComponent('Oi, Letícia! Vi seu portfólio e quero marcar uma entrevista');
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
     window.open(whatsappUrl, '_blank');
@@ -18,7 +18,6 @@ const ChatBubble = () => {
 
   return (
     <>
-      {/* Botão flutuante */}
       <div className={`chat-bubble-container ${isOpen ? 'open' : ''}`}>
         <button
           className="chat-bubble-button"
@@ -28,14 +27,12 @@ const ChatBubble = () => {
           {isOpen ? <FaTimes /> : <FaCommentDots />}
         </button>
 
-        {/* Mensagem inicial quando fechado */}
         {!isOpen && (
           <div className="chat-bubble-tooltip">
             É bom ter você aqui! :)
           </div>
         )}
 
-        {/* Janela de chat */}
         {isOpen && (
           <div className="chat-bubble-window">
             <div className="chat-bubble-header">

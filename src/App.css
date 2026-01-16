@@ -29,7 +29,6 @@ body {
   background: linear-gradient(135deg, #0a0118 0%, #150028 50%, #1a0a2e 100%);
 }
 
-/* Scrollbar personalizada */
 ::-webkit-scrollbar {
   width: 10px;
 }
@@ -47,7 +46,6 @@ body {
   background: var(--purple-secondary);
 }
 
-/* Animações */
 @keyframes fadeInUp {
   from {
     opacity: 0;
@@ -84,14 +82,12 @@ body {
   animation: fadeInUp 0.8s ease-out;
 }
 
-/* Container padrão */
 .container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 2rem;
 }
 
-/* Seções */
 section {
   padding: 5rem 0;
   position: relative;
@@ -113,7 +109,6 @@ section .subtitle {
   margin-bottom: 3rem;
 }
 
-/* Cards com glassmorphism */
 .glass-card {
   background: rgba(139, 92, 246, 0.05);
   backdrop-filter: blur(10px);
@@ -129,7 +124,6 @@ section .subtitle {
   box-shadow: 0 10px 40px rgba(139, 92, 246, 0.3);
 }
 
-/* Botões */
 .btn {
   display: inline-block;
   padding: 0.875rem 2rem;
@@ -163,7 +157,6 @@ section .subtitle {
   color: white;
 }
 
-/* Links */
 a {
   color: var(--purple-secondary);
   text-decoration: none;
@@ -174,7 +167,6 @@ a:hover {
   color: var(--purple-light);
 }
 
-/* Responsividade */
 @media (max-width: 768px) {
   .container {
     padding: 0 1.5rem;

@@ -5,7 +5,6 @@
   z-index: 1000;
 }
 
-/* Botão flutuante */
 .chat-bubble-button {
   width: 60px;
   height: 60px;
@@ -41,7 +40,6 @@
   }
 }
 
-/* Tooltip com mensagem */
 .chat-bubble-tooltip {
   position: absolute;
   bottom: 75px;
@@ -70,7 +68,6 @@
   border-top: 8px solid white;
 }
 
-/* Janela de chat */
 .chat-bubble-window {
   position: absolute;
   bottom: 75px;
@@ -106,7 +103,6 @@
   line-height: 1.6;
 }
 
-/* Botão WhatsApp */
 .whatsapp-button {
   width: 100%;
   padding: 12px 20px;
@@ -138,7 +134,6 @@
   font-size: 18px;
 }
 
-/* Animações */
 @keyframes fadeInUp {
   from {
     opacity: 0;
@@ -150,7 +145,6 @@
   }
 }
 
-/* Responsividade */
 @media (max-width: 768px) {
   .chat-bubble-container {
     bottom: 20px;
