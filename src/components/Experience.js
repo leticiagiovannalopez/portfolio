@@ -89,23 +89,15 @@ const Experience = () => {
               </p>
             </div>
 
-            <div className="certifications glass-card">
-              <h4>Aprendizado Contínuo</h4>
+            <div className="interests-card glass-card">
+              <h4>Interesses & Objetivos</h4>
               <p>
-                <strong>FIAP:</strong>
+                <strong>Interesses:</strong> Backend, Dados, Machine Learning, Inteligência Artificial
               </p>
-              <ul className="courses-list">
-                <li>✓ Big Data & Analytics</li>
-                <li>✓ Chatbots e IA Generativa</li>
-                <li>→ Business Intelligence (BI) - em andamento</li>
-              </ul>
-              <p style={{ marginTop: '1rem' }}>
-                <strong>Curso em Vídeo:</strong>
+              <p>
+                <strong>Objetivo:</strong> Me tornar uma desenvolvedora backend sólida,
+                unindo programação com análise de dados para criar soluções inteligentes e escaláveis.
               </p>
-              <ul className="courses-list">
-                <li>✓ Python - Mundo 1</li>
-                <li>→ Python - Mundo 2 - em andamento</li>
-              </ul>
             </div>
           </div>
         </div>
