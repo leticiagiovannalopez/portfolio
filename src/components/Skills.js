@@ -17,7 +17,8 @@ import {
   SiGithub,
   SiJupyter,
   SiPandas,
-  SiAmazonaws
+  SiAmazonaws,
+  SiReact
 } from 'react-icons/si';
 import { FaBrain, FaPlus, FaRobot, FaWandMagicSparkles } from 'react-icons/fa6';
 import './Skills.css';
@@ -43,6 +44,7 @@ const Skills = () => {
     {
       title: 'Frontend',
       skills: [
+        { name: 'React', icon: <SiReact />, color: '#61DAFB' },
         { name: 'Vue.js', icon: <SiVuedotjs />, color: '#4FC08D' },
         { name: 'Vuetify', icon: <SiVuetify />, color: '#1867C0' },
         { name: 'JavaScript', icon: <SiJavascript />, color: '#F7DF1E' },
