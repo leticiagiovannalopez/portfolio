@@ -28,6 +28,11 @@ const Courses = () => {
 
   const rightColumn = [
     {
+      name: 'AWS Certified Cloud Practitioner CLF-C02',
+      platform: 'Udemy',
+      status: 'em andamento'
+    },
+    {
       name: 'FastAPI - APIs Modernas e Assíncronas com Python',
       platform: 'Udemy',
       status: 'em andamento'
@@ -48,6 +53,8 @@ const Courses = () => {
     <div
       key={index}
       className={`timeline-item ${course.status === 'concluído' ? 'completed' : 'in-progress'}`}
+      data-aos="fade-up"
+      data-aos-delay={index * 100}
     >
       <div className="timeline-marker">
         {course.status === 'concluído' ? (
@@ -71,8 +78,8 @@ const Courses = () => {
   return (
     <section className="courses" id="courses">
       <div className="container">
-        <h2>Cursos & Certificações</h2>
-        <p className="subtitle">
+        <h2 data-aos="fade-up">Cursos & Certificações</h2>
+        <p className="subtitle" data-aos="fade-up" data-aos-delay="50">
           Aprendizado contínuo para me manter atualizada com as tecnologias do mercado
         </p>
 

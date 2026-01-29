@@ -37,17 +37,18 @@ const Projects = () => {
   return (
     <section className="projects" id="projects">
       <div className="container">
-        <h2>Projetos em Destaque</h2>
-        <p className="subtitle">
+        <h2 data-aos="fade-up">Projetos em Destaque</h2>
+        <p className="subtitle" data-aos="fade-up" data-aos-delay="50">
           Soluções que desenvolvi aplicando boas práticas de engenharia de software
         </p>
 
         <div className="projects-grid">
           {projects.map((project, index) => (
-            <div 
-              key={index} 
+            <div
+              key={index}
               className={`project-card glass-card ${project.featured ? 'featured' : ''}`}
-              style={{ animationDelay: `${index * 0.15}s` }}
+              data-aos="fade-up"
+              data-aos-delay={index * 100}
             >
               {project.featured && <div className="featured-badge">Destaque</div>}
               {project.status && (
@@ -85,7 +86,7 @@ const Projects = () => {
           ))}
         </div>
 
-        <div className="more-projects">
+        <div className="more-projects" data-aos="fade-up">
           <p>Quer ver mais projetos?</p>
           <a 
             href="https://github.com/leticiagiovannalopez" 

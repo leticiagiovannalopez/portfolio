@@ -31,19 +31,19 @@ const Experience = () => {
   return (
     <section className="experience" id="experience">
       <div className="container">
-        <h2>Experiência & Formação</h2>
-        <p className="subtitle">
+        <h2 data-aos="fade-up">Experiência & Formação</h2>
+        <p className="subtitle" data-aos="fade-up" data-aos-delay="50">
           Minha jornada profissional e acadêmica no mundo da tecnologia
         </p>
 
         <div className="experience-content">
           <div className="experience-section">
-            <h3 className="section-title">
+            <h3 className="section-title" data-aos="fade-up" data-aos-delay="100">
               <FaBriefcase /> Experiência Profissional
             </h3>
 
             {experiences.map((exp, index) => (
-              <div key={index} className="experience-card glass-card">
+              <div key={index} className="experience-card glass-card" data-aos="fade-up" data-aos-delay="100">
                 <div className="experience-header">
                   <div>
                     <h4>{exp.role}</h4>
@@ -76,11 +76,11 @@ const Experience = () => {
           </div>
 
           <div className="education-section">
-            <h3 className="section-title">
+            <h3 className="section-title" data-aos="fade-up" data-aos-delay="100">
               🎓 Formação Acadêmica
             </h3>
 
-            <div className="education-card glass-card">
+            <div className="education-card glass-card" data-aos="fade-up" data-aos-delay="100">
               <div className="education-status">{education.status}</div>
               <h4>{education.degree}</h4>
               <p className="institution">{education.institution}</p>
@@ -89,7 +89,7 @@ const Experience = () => {
               </p>
             </div>
 
-            <div className="interests-card glass-card">
+            <div className="interests-card glass-card" data-aos="fade-up" data-aos-delay="200">
               <h4>Interesses & Objetivos</h4>
               <p>
                 <strong>Interesses:</strong> Backend, Dados, Machine Learning, Inteligência Artificial

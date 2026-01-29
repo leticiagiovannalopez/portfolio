@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <section className="contact" id="contact">
       <div className="container">
-        <div className="contact-content glass-card">
+        <div className="contact-content glass-card" data-aos="fade-up">
           <h2>Vamos conversar?</h2>
           <p className="contact-subtitle">
             Estou aberta a oportunidades como desenvolvedora backend. 

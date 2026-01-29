@@ -18,14 +18,14 @@ const About = () => {
   return (
     <section className="about" id="about">
       <div className="container">
-        <h2>Quem é Letícia</h2>
-        <p className="subtitle">
-          Sempre tive o hábito de aprender por conta própria. Hoje, levo essa mesma 
-          postura para a programação: exploro tecnologias, testo ideias, quebro coisas, 
+        <h2 data-aos="fade-up">Quem é Letícia</h2>
+        <p className="subtitle" data-aos="fade-up" data-aos-delay="50">
+          Sempre tive o hábito de aprender por conta própria. Hoje, levo essa mesma
+          postura para a programação: exploro tecnologias, testo ideias, quebro coisas,
           aprendo e reconstruo.
         </p>
 
-        <div className="about-intro glass-card">
+        <div className="about-intro glass-card" data-aos="fade-up" data-aos-delay="100">
           <p>
             Gosto de entender o <strong>"porquê"</strong> por trás do código, não apenas 
             fazer funcionar. Minha curiosidade me leva a buscar soluções melhores, aprender 
@@ -36,10 +36,11 @@ const About = () => {
 
         <div className="qualities-grid">
           {qualities.map((quality, index) => (
-            <div 
-              key={index} 
+            <div
+              key={index}
               className="quality-card glass-card"
-              style={{ animationDelay: `${index * 0.1}s` }}
+              data-aos="fade-up"
+              data-aos-delay={index * 100}
             >
               <div className="quality-icon">{quality.icon}</div>
               <h3>{quality.title}</h3>

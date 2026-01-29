@@ -16,7 +16,8 @@ import {
   SiGit,
   SiGithub,
   SiJupyter,
-  SiPandas
+  SiPandas,
+  SiAmazonaws
 } from 'react-icons/si';
 import { FaBrain, FaPlus, FaRobot, FaWandMagicSparkles } from 'react-icons/fa6';
 import './Skills.css';
@@ -64,6 +65,7 @@ const Skills = () => {
       title: 'DevOps & Ferramentas',
       skills: [
         { name: 'Docker', icon: <SiDocker />, color: '#2496ED' },
+        { name: 'AWS', icon: <SiAmazonaws />, color: '#FF9900' },
         { name: 'Git', icon: <SiGit />, color: '#F05032' },
         { name: 'GitHub', icon: <SiGithub />, color: '#181717' }
       ]
@@ -73,17 +75,18 @@ const Skills = () => {
   return (
     <section className="skills" id="skills">
       <div className="container">
-        <h2>Stack de Tecnologias</h2>
-        <p className="subtitle">
+        <h2 data-aos="fade-up">Stack de Tecnologias</h2>
+        <p className="subtitle" data-aos="fade-up" data-aos-delay="50">
           Ferramentas e tecnologias que utilizo para criar soluções robustas e escaláveis
         </p>
 
         <div className="skills-categories">
           {skillCategories.map((category, categoryIndex) => (
-            <div 
-              key={categoryIndex} 
+            <div
+              key={categoryIndex}
               className="skill-category glass-card"
-              style={{ animationDelay: `${categoryIndex * 0.1}s` }}
+              data-aos="fade-up"
+              data-aos-delay={categoryIndex * 100}
             >
               <h3>{category.title}</h3>
               <div className="skills-grid">
