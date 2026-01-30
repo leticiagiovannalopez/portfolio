@@ -66,12 +66,6 @@ const Projects = () => {
               <h3>{project.title}</h3>
               <p className="project-description">{project.description}</p>
 
-              <div className="project-tags">
-                {project.tags.map((tag, i) => (
-                  <span key={i} className="tag">{tag}</span>
-                ))}
-              </div>
-
               <div className="project-links">
                 <a 
                   href={project.github} 
