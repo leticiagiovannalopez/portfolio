@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
-import { SiPython, SiFastapi, SiPostgresql, SiPhp, SiLaravel, SiVuedotjs, SiHtml5, SiCss3, SiJavascript } from 'react-icons/si';
+import { SiPython, SiFastapi, SiPostgresql, SiHtml5, SiCss3, SiJavascript } from 'react-icons/si';
 import { FaBrain } from 'react-icons/fa';
 import { FaWandMagicSparkles } from 'react-icons/fa6';
 import './Projects.css';
@@ -22,12 +22,11 @@ const Projects = () => {
       icons: [<SiPython />, <SiFastapi />, <SiPostgresql />],
       github: 'https://github.com/leticiagiovannalopez/CreatorsConnect',
       status: 'Em andamento',
-      featured: true
+      featured: false
     },
     {
       title: 'Landing Page - Terapia',
       description: 'Landing page profissional e responsiva para serviços de terapia, com design moderno, formulário de contato e otimização para conversão de leads.',
-      tags: ['HTML5', 'CSS3', 'JavaScript', 'Responsivo'],
       icons: [<SiHtml5 />, <SiCss3 />, <SiJavascript />],
       github: 'https://github.com/leticiagiovannalopez/site-terapia',
       featured: false
@@ -52,7 +51,7 @@ const Projects = () => {
             >
               {project.featured && <div className="featured-badge">Destaque</div>}
               {project.status && (
-                <div className="status-badge">{project.status}</div>
+                <div className={`status-badge ${project.status === 'Concluído' ? 'completed' : ''}`}>{project.status}</div>
               )}
 
               <div className="project-header">
