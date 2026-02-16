@@ -6,18 +6,20 @@ const Contact = () => {
   return (
     <section className="contact" id="contact">
       <div className="container">
-        <div className="contact-content glass-card" data-aos="fade-up">
-          <h2>Vamos conversar?</h2>
-          <p className="contact-subtitle">
-            Estou aberta a oportunidades como desenvolvedora backend. 
-            Se você busca alguém proativo, curioso e focado em resultados, 
+        <div className="contact-content glass-card">
+          <h2 data-aos="fade-up">Vamos conversar?</h2>
+          <p className="contact-subtitle" data-aos="fade-up" data-aos-delay="50">
+            Estou aberta a oportunidades como desenvolvedora backend.
+            Se você busca alguém proativo, curioso e focado em resultados,
             vamos conversar!
           </p>
 
           <div className="contact-methods">
-            <a 
+            <a
               href="mailto:leticiagiovannalopez@gmail.com"
               className="contact-card"
+              data-aos="fade-up"
+              data-aos-delay="100"
             >
               <div className="contact-icon">
                 <FaEnvelope />
@@ -28,11 +30,13 @@ const Contact = () => {
               </div>
             </a>
 
-            <a 
+            <a
               href="https://www.linkedin.com/in/let%C3%ADcia-lopez-789aa9368/"
               target="_blank"
               rel="noopener noreferrer"
               className="contact-card"
+              data-aos="fade-up"
+              data-aos-delay="200"
             >
               <div className="contact-icon">
                 <FaLinkedin />
@@ -43,11 +47,13 @@ const Contact = () => {
               </div>
             </a>
 
-            <a 
+            <a
               href="https://github.com/leticiagiovannalopez"
               target="_blank"
               rel="noopener noreferrer"
               className="contact-card"
+              data-aos="fade-up"
+              data-aos-delay="300"
             >
               <div className="contact-icon">
                 <FaGithub />
@@ -59,8 +65,8 @@ const Contact = () => {
             </a>
           </div>
 
-          <div className="contact-cta">
-            <a 
+          <div className="contact-cta" data-aos="fade-up" data-aos-delay="400">
+            <a
               href="mailto:leticiagiovannalopez@gmail.com"
               className="btn btn-primary btn-large"
             >

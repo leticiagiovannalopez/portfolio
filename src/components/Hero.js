@@ -13,7 +13,7 @@ const Hero = () => {
               <span className="gradient-text">Letícia Lopez</span>
             </h1>
             
-            <p className="role">Estagiária Full Stack Developer · Foco em Backend</p>
+            <p className="role">Estagiária de Análise de Dados · Itaú</p>
             
             <p className="description">
               Sou movida por <strong>curiosidade</strong>. Gosto de pesquisar, investigar e 

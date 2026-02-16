@@ -115,13 +115,14 @@ section .subtitle {
   border: 1px solid rgba(139, 92, 246, 0.2);
   border-radius: 16px;
   padding: 2rem;
-  transition: all 0.3s ease;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 .glass-card:hover {
   transform: translateY(-5px);
   border-color: var(--purple-primary);
   box-shadow: 0 10px 40px rgba(139, 92, 246, 0.3);
+  transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 .btn {

@@ -16,8 +16,13 @@ function App() {
   useEffect(() => {
     AOS.init({
       duration: 800,
-      once: true
+      once: true,
+      offset: 50,
+      easing: 'ease-out-cubic'
     });
+
+    // Refresh AOS after React finishes rendering
+    setTimeout(() => AOS.refresh(), 100);
   }, []);
 
   return (
