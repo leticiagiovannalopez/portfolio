@@ -13,7 +13,7 @@ const Hero = () => {
               <span className="gradient-text">Letícia Lopez</span>
             </h1>
             
-            <p className="role">Estagiária de Análise de Dados · Itaú</p>
+            <p className="role">Estagiária de Engenharia de Dados · Itaú</p>
             
             <p className="description">
               Sou movida por <strong>curiosidade</strong>. Gosto de pesquisar, investigar e 
@@ -40,7 +40,7 @@ const Hero = () => {
 
             <div className="social-links">
               <a 
-                href="https://www.linkedin.com/in/let%C3%ADcia-lopez-789aa9368/" 
+                href="https://www.linkedin.com/in/leticiagiovannalopez/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 aria-label="LinkedIn"

@@ -13,14 +13,17 @@ import {
   SiHtml5,
   SiCss3,
   SiDocker,
-  SiGit,
-  SiGithub,
   SiJupyter,
   SiPandas,
-  SiAmazonaws,
-  SiReact
+  SiReact,
+  SiSpringboot,
+  SiPostman,
+  SiApachekafka,
+  SiGrafana,
+  SiAmazoncloudwatch,
+  SiAmazons3
 } from 'react-icons/si';
-import { FaBrain, FaPlus, FaRobot, FaWandMagicSparkles } from 'react-icons/fa6';
+import { FaBrain, FaPlus, FaRobot, FaWandMagicSparkles, FaJava, FaPlug, FaFileCode, FaDatabase } from 'react-icons/fa6';
 import './Skills.css';
 
 const Skills = () => {
@@ -31,7 +34,9 @@ const Skills = () => {
         { name: 'PHP Laravel', icon: <SiLaravel />, color: '#FF2D20' },
         { name: 'Node.js', icon: <SiNodedotjs />, color: '#339933' },
         { name: 'Python', icon: <SiPython />, color: '#3776AB' },
-        { name: 'FastAPI', icon: <SiFastapi />, color: '#009688' }
+        { name: 'FastAPI', icon: <SiFastapi />, color: '#009688' },
+        { name: 'Java', icon: <FaJava />, color: '#007396' },
+        { name: 'Spring Boot', icon: <SiSpringboot />, color: '#6DB33F' }
       ]
     },
     {
@@ -59,7 +64,6 @@ const Skills = () => {
         { name: 'Pandas', icon: '🐼', color: '#150458' },
         { name: 'Jupyter Notebooks', icon: <SiJupyter />, color: '#F37626' },
         { name: 'Random Forest', icon: <FaBrain />, color: '#8B5CF6' },
-        { name: 'Análise de Dados', icon: <FaBrain />, color: '#3776AB' },
         { name: 'IA Generativa', icon: <FaWandMagicSparkles />, color: '#FF6B6B' }
       ]
     },
@@ -67,9 +71,19 @@ const Skills = () => {
       title: 'DevOps & Ferramentas',
       skills: [
         { name: 'Docker', icon: <SiDocker />, color: '#2496ED' },
-        { name: 'AWS', icon: <SiAmazonaws />, color: '#FF9900' },
-        { name: 'Git', icon: <SiGit />, color: '#F05032' },
-        { name: 'GitHub', icon: <SiGithub />, color: '#181717' }
+        { name: 'AWS S3', icon: <SiAmazons3 />, color: '#569A31' },
+        { name: 'AWS CloudWatch', icon: <SiAmazoncloudwatch />, color: '#FF9900' },
+        { name: 'AWS Athena', icon: <FaDatabase />, color: '#FF9900' },
+        { name: 'Postman', icon: <SiPostman />, color: '#FF6C37' }
+      ]
+    },
+    {
+      title: 'Integração & Streaming',
+      skills: [
+        { name: 'Apache Kafka', icon: <SiApachekafka />, color: '#231F20' },
+        { name: 'Digibee', icon: <FaPlug />, color: '#6C63FF' },
+        { name: 'Avro', icon: <FaFileCode />, color: '#3776AB' },
+        { name: 'Grafana', icon: <SiGrafana />, color: '#F46800' }
       ]
     }
   ];

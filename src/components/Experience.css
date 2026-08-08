@@ -251,6 +251,10 @@
     flex-direction: column;
   }
 
+  .dexos-card {
+    order: -1;
+  }
+
   .experience-header {
     flex-direction: column;
   }

@@ -1,7 +1,6 @@
 import React from 'react';
-import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
-import { SiPython, SiFastapi, SiPostgresql, SiHtml5, SiCss3, SiJavascript } from 'react-icons/si';
-import { FaBrain } from 'react-icons/fa';
+import { FaGithub, FaBrain, FaJava } from 'react-icons/fa';
+import { SiPython, SiFastapi, SiPostgresql, SiSpringboot } from 'react-icons/si';
 import { FaWandMagicSparkles } from 'react-icons/fa6';
 import './Projects.css';
 
@@ -10,25 +9,24 @@ const Projects = () => {
     {
       title: 'Monitoramento de Risco Operacional',
       description: 'Sistema de machine learning para monitoramento e previsão de riscos operacionais em instituições financeiras, utilizando Random Forest para análise preditiva e classificação de incidentes. Inclui chatbot com IA generativa para consultas inteligentes.',
-      tags: ['Python', 'FastAPI', 'Random Forest', 'IA Generativa', 'PostgreSQL'],
-      icons: [<SiPython />, <SiFastapi />, <FaBrain />, <FaWandMagicSparkles />, <SiPostgresql />],
+      icons: [SiPython, SiFastapi, FaBrain, FaWandMagicSparkles, SiPostgresql],
       github: 'https://github.com/leticiagiovannalopez/monitoramento-risco-operacional',
       featured: true
     },
     {
       title: 'Creators Connect',
       description: 'Plataforma marketplace que conecta influenciadores e empresas, facilitando parcerias comerciais e gestão de campanhas. Sistema completo com painéis administrativos e dashboards analíticos.',
-      tags: ['Python', 'FastAPI', 'PostgreSQL'],
-      icons: [<SiPython />, <SiFastapi />, <SiPostgresql />],
+      icons: [SiPython, SiFastapi, SiPostgresql],
       github: 'https://github.com/leticiagiovannalopez/CreatorsConnect',
       status: 'Em andamento',
       featured: false
     },
     {
-      title: 'Landing Page - Terapia',
-      description: 'Landing page profissional e responsiva para serviços de terapia, com design moderno, formulário de contato e otimização para conversão de leads.',
-      icons: [<SiHtml5 />, <SiCss3 />, <SiJavascript />],
-      github: 'https://github.com/leticiagiovannalopez/site-terapia',
+      title: 'Risk Analysis API',
+      description: 'API REST de análise de risco de crédito em Java com Spring Boot. Recebe dados financeiros e classifica perfis em BAIXO, MÉDIO ou ALTO risco com justificativa, simulando sistemas reais de bancos e fintechs.',
+      icons: [FaJava, SiSpringboot, SiPostgresql],
+      github: 'https://github.com/leticiagiovannalopez/risk.analysis.api',
+      status: 'Em andamento',
       featured: false
     }
   ];
@@ -45,19 +43,19 @@ const Projects = () => {
           {projects.map((project, index) => (
             <div
               key={index}
-              className={`project-card glass-card ${project.featured ? 'featured' : ''}`}
+              className={'project-card glass-card' + (project.featured ? ' featured' : '')}
               data-aos="fade-up"
               data-aos-delay={index * 100}
             >
               {project.featured && <div className="featured-badge">Destaque</div>}
               {project.status && (
-                <div className={`status-badge ${project.status === 'Concluído' ? 'completed' : ''}`}>{project.status}</div>
+                <div className="status-badge">{project.status}</div>
               )}
 
               <div className="project-header">
                 <div className="project-icons">
-                  {project.icons.map((icon, i) => (
-                    <span key={i} className="tech-icon">{icon}</span>
+                  {project.icons.map((Icon, i) => (
+                    <span key={i} className="tech-icon"><Icon /></span>
                   ))}
                 </div>
               </div>
@@ -66,9 +64,9 @@ const Projects = () => {
               <p className="project-description">{project.description}</p>
 
               <div className="project-links">
-                <a 
-                  href={project.github} 
-                  target="_blank" 
+                <a
+                  href={project.github}
+                  target="_blank"
                   rel="noopener noreferrer"
                   className="project-link"
                 >
@@ -81,9 +79,9 @@ const Projects = () => {
 
         <div className="more-projects" data-aos="fade-up">
           <p>Quer ver mais projetos?</p>
-          <a 
-            href="https://github.com/leticiagiovannalopez" 
-            target="_blank" 
+          <a
+            href="https://github.com/leticiagiovannalopez"
+            target="_blank"
             rel="noopener noreferrer"
             className="btn btn-outline"
           >
