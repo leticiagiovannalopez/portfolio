@@ -6,7 +6,7 @@ const Experience = () => {
   const education = {
     degree: 'Bacharelado em Engenharia de Software',
     institution: 'Universidade Cruzeiro do Sul',
-    period: 'Fevereiro 2026 - Presente',
+    period: 'Dezembro 2025 - Presente',
     status: 'Em andamento'
   };
 
@@ -97,7 +97,7 @@ const Experience = () => {
             <div className="interests-card glass-card" data-aos="fade-up" data-aos-delay="300">
               <h4>Interesses & Objetivos</h4>
               <p><strong>Interesses:</strong> Backend, Engenharia de Software, Dados, IA</p>
-              <p><strong>Objetivo:</strong> Atuar como engenheira de software backend, construindo sistemas escaláveis com impacto real no setor financeiro.</p>
+              <p><strong>Objetivo:</strong> Buscar efetivação como engenheira de software backend, aplicando a vivência com dados e integração de sistemas construída na engenharia de dados.</p>
               <p><strong>Certificação em andamento:</strong> AWS Certified AI Practitioner</p>
             </div>
 
