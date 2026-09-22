@@ -1,12 +1,19 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { FaCommentDots, FaTimes, FaWhatsapp } from 'react-icons/fa';
 import './ChatBubble.css';
 
 const ChatBubble = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [showTooltip, setShowTooltip] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => setShowTooltip(false), 5000);
+    return () => clearTimeout(timer);
+  }, []);
 
   const toggleChat = () => {
     setIsOpen(!isOpen);
+    setShowTooltip(false);
   };
 
   const handleWhatsAppClick = () => {
@@ -27,7 +34,7 @@ const ChatBubble = () => {
           {isOpen ? <FaTimes /> : <FaCommentDots />}
         </button>
 
-        {!isOpen && (
+        {!isOpen && showTooltip && (
           <div className="chat-bubble-tooltip">
             É bom ter você aqui! :)
           </div>
