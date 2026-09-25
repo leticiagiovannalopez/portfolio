@@ -3,20 +3,6 @@
   background: linear-gradient(180deg, transparent 0%, rgba(139, 92, 246, 0.03) 100%);
 }
 
-.about-intro {
-  font-size: 1.2rem;
-  line-height: 1.8;
-  text-align: center;
-  max-width: 900px;
-  margin: 0 auto 4rem;
-  padding: 2.5rem;
-}
-
-.about-intro strong {
-  color: var(--purple-light);
-  font-weight: 600;
-}
-
 .qualities-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -91,11 +77,6 @@
   .qualities-grid {
     grid-template-columns: 1fr;
     gap: 1.5rem;
-  }
-
-  .about-intro {
-    font-size: 1.1rem;
-    padding: 2rem 1.5rem;
   }
 
   .quality-card {

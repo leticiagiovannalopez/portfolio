@@ -1,6 +1,5 @@
 import React from 'react';
 import {
-  SiPhp,
   SiLaravel,
   SiNodedotjs,
   SiPython,
@@ -14,7 +13,6 @@ import {
   SiCss3,
   SiDocker,
   SiJupyter,
-  SiPandas,
   SiReact,
   SiSpringboot,
   SiPostman,
@@ -23,7 +21,7 @@ import {
   SiAmazoncloudwatch,
   SiAmazons3
 } from 'react-icons/si';
-import { FaBrain, FaPlus, FaRobot, FaWandMagicSparkles, FaJava, FaPlug, FaFileCode, FaDatabase } from 'react-icons/fa6';
+import { FaBrain, FaWandMagicSparkles, FaJava, FaPlug, FaFileCode, FaDatabase } from 'react-icons/fa6';
 import './Skills.css';
 
 const Skills = () => {

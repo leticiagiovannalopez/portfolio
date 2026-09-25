@@ -20,19 +20,9 @@ const About = () => {
       <div className="container">
         <h2 data-aos="fade-up">Quem é Letícia</h2>
         <p className="subtitle" data-aos="fade-up" data-aos-delay="50">
-          Sempre tive o hábito de aprender por conta própria. Hoje, levo essa mesma
-          postura para a programação: exploro tecnologias, testo ideias, quebro coisas,
-          aprendo e reconstruo.
+          Aprendo por conta própria: exploro tecnologias, testo ideias, quebro coisas
+          e reconstruo até entender o porquê por trás do código.
         </p>
-
-        <div className="about-intro glass-card" data-aos="fade-up" data-aos-delay="100">
-          <p>
-            Gosto de entender o <strong>"porquê"</strong> por trás do código, não apenas 
-            fazer funcionar. Minha curiosidade me leva a buscar soluções melhores, aprender 
-            ferramentas novas e evoluir constantemente. É ela que transforma 
-            <strong> complexidade em aprendizado</strong> — e que segue me guiando até aqui.
-          </p>
-        </div>
 
         <div className="qualities-grid">
           {qualities.map((quality, index) => (

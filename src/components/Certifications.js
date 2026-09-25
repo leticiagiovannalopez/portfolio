@@ -24,7 +24,7 @@ const Certifications = () => {
       <div className="container">
         <h2 data-aos="fade-up">Certificações</h2>
         <p className="subtitle" data-aos="fade-up" data-aos-delay="50">
-          Certificações que comprovam meu conhecimento técnico e compromisso com aprendizado contínuo
+          Validações técnicas da curiosidade que me trouxe até aqui
         </p>
 
         <div className="certifications-grid">
