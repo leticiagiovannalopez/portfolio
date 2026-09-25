@@ -98,7 +98,6 @@ const Experience = () => {
               <h4>Interesses & Objetivos</h4>
               <p><strong>Interesses:</strong> Backend, Engenharia de Software, Dados, IA</p>
               <p><strong>Objetivo:</strong> Buscar efetivação como engenheira de software backend, aplicando a vivência com dados e integração de sistemas construída na engenharia de dados.</p>
-              <p><strong>Certificação em andamento:</strong> AWS Certified AI Practitioner</p>
             </div>
 
             {/* Card Dexos */}
