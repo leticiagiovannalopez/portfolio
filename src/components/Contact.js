@@ -9,9 +9,9 @@ const Contact = () => {
         <div className="contact-content glass-card">
           <h2 data-aos="fade-up">Vamos conversar?</h2>
           <p className="contact-subtitle" data-aos="fade-up" data-aos-delay="50">
-            Estou aberta a oportunidades como desenvolvedora backend.
-            Se você busca alguém proativo, curioso e focado em resultados,
-            vamos conversar!
+            Gosto de trocar ideias sobre backend, engenharia de IA e
+            sistemas distribuídos. Se quiser bater um papo, colaborar em
+            algum projeto ou só falar de tecnologia, me chama!
           </p>
 
           <div className="contact-methods">

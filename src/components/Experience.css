@@ -20,6 +20,7 @@
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
+  align-self: flex-start;
 }
 
 .section-title {
@@ -116,6 +117,17 @@
   padding-left: 0;
 }
 
+.highlights ul + strong {
+  margin-top: 1rem;
+}
+
+.highlights .stack-list {
+  color: var(--text-secondary);
+  font-size: 0.92rem;
+  line-height: 1.6;
+  margin: 0;
+}
+
 .highlights li {
   color: var(--text-secondary);
   padding: 0.3rem 0;
@@ -209,7 +221,6 @@
 .interests-card {
   background: rgba(139, 92, 246, 0.08);
   margin-top: 0;
-  flex: 1;
 }
 
 .interests-card h4 {
@@ -251,8 +262,36 @@
     flex-direction: column;
   }
 
+  /* No mobile tudo vira uma coluna só: mantém a ordem cronológica
+     (Júnior, Eng. Dados, Análise, Dexos) e a formação no final */
+  .experience-content {
+    gap: 0;
+  }
+
+  .experience-section,
+  .education-section {
+    display: contents;
+  }
+
   .dexos-card {
-    order: -1;
+    order: 1;
+  }
+
+  .education-section > * {
+    order: 2;
+  }
+
+  .education-section > .analise-card {
+    order: 0;
+    margin-bottom: 1.5rem;
+  }
+
+  .education-section .section-title {
+    margin-top: 1rem;
+  }
+
+  .education-card {
+    margin-bottom: 1.5rem;
   }
 
   .experience-header {
@@ -277,5 +316,103 @@
   .highlights li {
     padding-left: 1.2rem;
     font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .section-title {
+    font-size: 1.15rem;
+    margin-bottom: 1.1rem;
+  }
+
+  .experience-card {
+    margin-bottom: 1rem;
+  }
+
+  .education-section > .analise-card,
+  .education-card {
+    margin-bottom: 1rem;
+  }
+
+  .experience-header {
+    margin-bottom: 0.6rem;
+    gap: 0.5rem;
+  }
+
+  .experience-card h4 {
+    font-size: 1.02rem;
+    line-height: 1.35;
+  }
+
+  .company {
+    font-size: 0.9rem;
+  }
+
+  .experience-badge {
+    padding: 0.25rem 0.7rem;
+    font-size: 0.72rem;
+  }
+
+  /* Data e local na mesma linha */
+  .experience-meta {
+    flex-direction: row;
+    gap: 0.4rem 1rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .meta-item {
+    font-size: 0.82rem;
+  }
+
+  .experience-description {
+    font-size: 0.88rem;
+    margin-bottom: 0.85rem;
+  }
+
+  .highlights {
+    padding: 0.85rem 0.9rem;
+  }
+
+  .highlights strong {
+    font-size: 0.85rem;
+  }
+
+  .highlights li,
+  .highlights .stack-list {
+    font-size: 0.83rem;
+    padding-left: 1.1rem;
+  }
+
+  .highlights .stack-list {
+    padding-left: 0;
+  }
+
+  .highlights li::before {
+    font-size: 1rem;
+  }
+
+  .education-card {
+    padding-top: 2.25rem;
+  }
+
+  .education-card h4 {
+    font-size: 1.08rem;
+  }
+
+  .institution {
+    font-size: 0.92rem;
+  }
+
+  .period {
+    font-size: 0.85rem;
+  }
+
+  .interests-card h4 {
+    font-size: 1.05rem;
+  }
+
+  .interests-card p {
+    font-size: 0.88rem;
+    line-height: 1.6;
   }
 }

@@ -126,3 +126,64 @@
     text-align: center;
   }
 }
+
+@media (max-width: 600px) {
+  .contact {
+    padding: 2.75rem 0 2rem;
+  }
+
+  .contact-content {
+    padding: 1.6rem 1.25rem;
+  }
+
+  .contact-content h2 {
+    font-size: 1.65rem;
+  }
+
+  .contact-subtitle {
+    font-size: 0.92rem;
+    line-height: 1.65;
+  }
+
+  .contact-methods {
+    gap: 0.75rem;
+  }
+
+  /* Cards de contato em linha: ícone à esquerda, texto ao lado */
+  .contact-card {
+    justify-content: flex-start;
+    gap: 0.9rem;
+    padding: 0.85rem 1rem;
+    min-height: 0;
+  }
+
+  .contact-icon {
+    width: 42px;
+    height: 42px;
+    font-size: 1.2rem;
+    flex-shrink: 0;
+  }
+
+  .contact-info {
+    text-align: left;
+    min-width: 0;
+  }
+
+  .contact-info h3 {
+    font-size: 0.95rem;
+  }
+
+  .contact-info p {
+    font-size: 0.82rem;
+    overflow-wrap: anywhere;
+  }
+
+  .contact-cta {
+    padding-top: 1.4rem;
+  }
+
+  .btn-large {
+    font-size: 0.95rem;
+    padding: 0.75rem 1.6rem;
+  }
+}

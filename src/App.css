@@ -185,3 +185,45 @@ a:hover {
     font-size: 1rem;
   }
 }
+
+/* Repaginada mobile: tipografia e espaçamentos mais leves */
+@media (max-width: 600px) {
+  body {
+    line-height: 1.55;
+  }
+
+  .container {
+    padding: 0 1.25rem;
+  }
+
+  section {
+    padding: 2.75rem 0;
+  }
+
+  section h2 {
+    font-size: 1.65rem;
+    line-height: 1.25;
+    margin-bottom: 0.6rem;
+  }
+
+  section .subtitle {
+    font-size: 0.92rem;
+    margin-bottom: 1.75rem;
+  }
+
+  .glass-card {
+    padding: 1.25rem;
+    border-radius: 14px;
+  }
+
+  /* Sem "pulo" do hover em telas de toque */
+  .glass-card:hover {
+    transform: none;
+    box-shadow: none;
+  }
+
+  .btn {
+    padding: 0.7rem 1.4rem;
+    font-size: 0.92rem;
+  }
+}

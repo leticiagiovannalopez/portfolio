@@ -137,3 +137,41 @@
     height: 130px;
   }
 }
+
+@media (max-width: 600px) {
+  .certifications-grid {
+    gap: 1.25rem;
+  }
+
+  .cert-card {
+    padding: 1.75rem 1.25rem 1.4rem;
+  }
+
+  .cert-badge-img {
+    width: 96px;
+    height: 96px;
+  }
+
+  .cert-icon {
+    width: 64px;
+    height: 64px;
+    font-size: 1.6rem;
+  }
+
+  .cert-card h3 {
+    font-size: 1.05rem;
+  }
+
+  .cert-level {
+    font-size: 0.78rem;
+  }
+
+  .cert-card p.cert-note {
+    font-size: 0.85rem;
+  }
+
+  .cert-link {
+    padding: 0.55rem 1.1rem;
+    font-size: 0.88rem;
+  }
+}

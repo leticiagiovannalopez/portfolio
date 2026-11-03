@@ -83,3 +83,28 @@
     padding: 2rem 1.5rem;
   }
 }
+
+@media (max-width: 600px) {
+  .qualities-grid {
+    gap: 1rem;
+  }
+
+  .quality-card {
+    padding: 1.4rem 1.25rem;
+  }
+
+  .quality-icon {
+    width: 52px;
+    height: 52px;
+    font-size: 1.4rem;
+  }
+
+  .quality-card h3 {
+    font-size: 1.1rem;
+  }
+
+  .quality-card p {
+    font-size: 0.9rem;
+    line-height: 1.6;
+  }
+}

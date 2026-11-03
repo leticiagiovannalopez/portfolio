@@ -13,7 +13,7 @@ const Hero = () => {
               <span className="gradient-text">Letícia Lopez</span>
             </h1>
             
-            <p className="role">Estagiária de Engenharia de Dados · Itaú</p>
+            <p className="role">Engenheira de Software Júnior · Itaú</p>
             
             <p className="description">
               Sou movida por <strong>curiosidade</strong>. Gosto de pesquisar, investigar e 
@@ -29,12 +29,6 @@ const Hero = () => {
                 className="btn btn-primary"
               >
                 <FaGithub /> Ver Projetos
-              </a>
-              <a 
-                href="mailto:leticiagiovannalopez@gmail.com"
-                className="btn btn-outline"
-              >
-                <FaEnvelope /> Entrar em Contato
               </a>
             </div>
 

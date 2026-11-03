@@ -14,14 +14,6 @@ const Projects = () => {
       featured: true
     },
     {
-      title: 'Creators Connect',
-      description: 'Plataforma marketplace que conecta influenciadores e empresas, facilitando parcerias comerciais e gestão de campanhas. Sistema completo com painéis administrativos e dashboards analíticos.',
-      icons: [SiPython, SiFastapi, SiPostgresql],
-      github: 'https://github.com/leticiagiovannalopez/CreatorsConnect',
-      status: 'Em andamento',
-      featured: false
-    },
-    {
       title: 'Risk Analysis API',
       description: 'API REST de análise de risco de crédito em Java com Spring Boot. Recebe dados financeiros e classifica perfis em BAIXO, MÉDIO ou ALTO risco com justificativa, simulando sistemas reais de bancos e fintechs.',
       icons: [FaJava, SiSpringboot, SiPostgresql],

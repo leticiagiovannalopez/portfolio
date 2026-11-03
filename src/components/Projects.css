@@ -163,3 +163,43 @@
     padding: 2rem 1.5rem;
   }
 }
+
+@media (max-width: 600px) {
+  .projects-grid {
+    gap: 1rem;
+  }
+
+  .project-card {
+    padding: 1.6rem 1.25rem 1.25rem;
+  }
+
+  .tech-icon {
+    font-size: 1.35rem;
+  }
+
+  .project-icons {
+    gap: 0.6rem;
+  }
+
+  .project-card h3 {
+    font-size: 1.15rem;
+  }
+
+  .project-description {
+    font-size: 0.9rem;
+    line-height: 1.6;
+  }
+
+  .project-link {
+    padding: 0.55rem 1.1rem;
+    font-size: 0.88rem;
+  }
+
+  .more-projects {
+    padding: 1.4rem;
+  }
+
+  .more-projects p {
+    font-size: 0.95rem;
+  }
+}
