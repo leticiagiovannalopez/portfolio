@@ -36,6 +36,7 @@ const Experience = () => {
               </div>
               <div className="experience-meta">
                 <span className="meta-item"><FaCalendarAlt /> Novembro 2026 - Presente</span>
+                <span className="meta-item"><FaMapMarkerAlt /> Híbrido</span>
               </div>
               <p className="experience-description">
                 Atuação no desenvolvimento backend da jornada de pagamento de dívidas para clientes PJ, construindo serviços em Java com Spring Boot sobre arquitetura orientada a eventos na AWS, seguindo DDD, SOLID e Clean Architecture.
@@ -83,7 +84,7 @@ const Experience = () => {
             <div className="experience-card glass-card dexos-card" data-aos="fade-up" data-aos-delay="150">
               <div className="experience-header">
                 <div>
-                  <h4>Full Stack Developer</h4>
+                  <h4>Desenvolvedora de Software</h4>
                   <p className="company">Dexos · Autônoma</p>
                 </div>
                 <div className="experience-badge">Autônoma</div>
