@@ -96,11 +96,18 @@ const Experience = () => {
                 Desenvolvimento de sistemas corporativos e dashboards administrativos utilizando PHP Laravel, Node.js, MongoDB, Vue.js e Docker.
               </p>
               <div className="highlights">
-                <strong>Principais realizações:</strong>
+                <strong>Desenvolvimento de Sistemas:</strong>
                 <ul>
-                  <li>Criação de dashboards financeiros completos com Vue.js e Vuetify</li>
-                  <li>Desenvolvimento de APIs RESTful com Laravel e Node.js</li>
-                  <li>Implementação de sistemas de gestão com MongoDB</li>
+                  <li>Desenvolvimento de sistemas de gerenciamento financeiro e administrativo para gestão de redes</li>
+                  <li>Construção de interfaces responsivas com Vue.js</li>
+                  <li>Desenvolvimento de APIs REST com Node.js e Laravel</li>
+                  <li>Modelagem de dados com MongoDB</li>
+                </ul>
+                <strong>Qualidade e Manutenção:</strong>
+                <ul>
+                  <li>Desenvolvimento de features end-to-end, da implementação aos testes de qualidade (QA)</li>
+                  <li>Manutenção evolutiva de sistemas em produção</li>
+                  <li>Uso de Docker para containerização e padronização dos ambientes de desenvolvimento</li>
                 </ul>
               </div>
             </div>
